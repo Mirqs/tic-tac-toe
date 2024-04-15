@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://images.freeimages.com/cme/images/istock/previews/4571/45718534-seamless-texture-with-red-tic-tac-toe.jpg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+.row div{
+    padding: 10px;
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    float: left;
+    background-color: rgb(227, 248, 165);
+    margin: 3px 3px;
+}
+
+button{
+    width: 200px;
+    margin: 10px;
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+h1{
+    position: absolute;
+    bottom: 850px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+p{
+    position: absolute;
+    align-self: center;
+    bottom: 100px;
+    font-size: 50px;
+    background-color: rgba(32, 103, 245, 0);
+    color: rgb(0, 0, 0);
+}

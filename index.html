@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крестики-Нолики</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <h1>Крестики-Нолики</h1>
+    <div class="game">
+        <button onclick="restartGame();">Играть</button>
+        <br>
+        <div class="row">
+            <div id="0_0" onclick="clickBox(this);"></div>
+            <div id="1_0" onclick="clickBox(this);"></div>
+            <div id="2_0" onclick="clickBox(this);"></div>
+        </div>
+        <div class="row">
+            <div id="0_1" onclick="clickBox(this);"></div>
+            <div id="1_1" onclick="clickBox(this);"></div>
+            <div id="2_1" onclick="clickBox(this);"></div>
+        </div>
+        <div class="row">
+            <div id="0_2" onclick="clickBox(this);"></div>
+            <div id="1_2" onclick="clickBox(this);"></div>
+            <div id="2_2" onclick="clickBox(this);"></div>
+        </div>
+    </div>
+    <p>Инструкция: <br>Выигрывает тот, кто <br> расставит три <br> одинаковых знаков <br> в ряд по вертикали, <br> по горизонтали либо по диагонали</p>
+    
+</body>
+</html>
